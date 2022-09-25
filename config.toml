@@ -1,20 +1,53 @@
-# default configuration
 baseURL = "colemcintosh.netlify.com"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
 title = "Cole McIntosh"
-
-# css plugins
+[[menu.main]]
+URL = "contact/"
+name = "Contact"
+weight = 4
+[[menu.main]]
+URL = "portfolio/"
+name = "Portfolio"
+weight = 3
+[[menu.main]]
+URL = "blog/"
+name = "Blog"
+weight = 2
+[[menu.main]]
+URL = "about/"
+name = "About"
+weight = 1
+[params]
+author = "Cole McIntosh"
+baidu_analytics_id = ""
+baidu_site_verification = ""
+description = "This is meta description"
+email = "colemcintosh6@gmail.com"
+google_analytics_id = ""
+home = "Home"
+logo = ""
+phone = "+1 469 247 1784"
+theme_color = "#41228e"
+[params.contact]
+enable = true
+form_action = "https://formspree.io/f/xrgdqlpg"
+[params.cookies]
+enable = true
+expire_days = 2
+[params.map]
+enable = true
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-
-
-# js plugin
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
@@ -25,86 +58,18 @@ link = "plugins/slick/slick.min.js"
 link = "plugins/shuffle/shuffle.min.js"
 [[params.plugins.js]]
 link = "plugins/google-map/map.js"
-
-
-# menu
-[[menu.main]]
-URL = "about/"
-name = "About"
-weight = 1
-
-[[menu.main]]
-URL = "blog/"
-name = "Blog"
-weight = 2
-
-[[menu.main]]
-URL = "portfolio/"
-name = "Portfolio"
-weight = 3
-
-[[menu.main]]
-URL = "contact/"
-name = "Contact"
-weight = 4
-
-
-# default parameters
-[params]
-home = "Home"
-logo = ""
-# theme color
-theme_color = "#41228e"
-# contact info
-phone = "+1 469 247 1784"
-email = "colemcintosh6@gmail.com"
-# meta description
-author = "Cole McIntosh"
-description = "This is meta description"
-# google analytics
-google_analytics_id = "" # Your ID
-# baidu site verification
-baidu_site_verification = "" #Your verification code
-# baidu analytics
-baidu_analytics_id = "" #Your ID
-
-
-# preloader
 [params.preloader]
 enable = true
-preloader = "images/preloader.gif" # use png, jpg, svg or gif format
-
-# contact
-[params.contact]
-enable = true
-form_action = "https://formspree.io/f/xrgdqlpg" # contact form works with : https://formspree.io
-
-# google map
-[params.map]
-enable = true
-gmap_api = "https://maps.googleapis.com/maps/api/js?key=&#038;types=(cities)&#038;libraries=places&#038;language=en"
-map_latitude = "51.5223477"
-map_longitude = "-0.1622023"
-map_marker = "images/marker.png"
-
-# cookies
-[params.cookies]
-enable = true
-expire_days = 2
-
-# social site
+preloader = "images/preloader.gif"
 [[params.social]]
+URL = "#"
 icon = "ti-facebook"
-URL = "#"
-
 [[params.social]]
+URL = "#"
 icon = "ti-instagram"
-URL = "#"
-
 [[params.social]]
+URL = "#"
 icon = "ti-dribbble"
-URL = "#"
-
 [[params.social]]
-icon = "ti-twitter-alt"
 URL = "#"
+icon = "ti-twitter-alt"
