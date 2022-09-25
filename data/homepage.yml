@@ -1,0 +1,161 @@
+# banner
+banner:
+  title : "Hi! <br> I’m Cole, <br>Web Developer"
+
+# about
+about:
+  enable : true
+  content : "I am a web developer with a passion for creating beautiful, functional websites. I have a background in data anlysis and a love for all things creative. I am currently working as a remote web developer at <a href='https://www.tryotter.com/' target='_blank'>Otter</a>."
+  button:
+    enable : true
+    label : "know more"
+    URL : "about"
+
+# skill
+skill:
+  enable : false
+  title : "Technologies"
+  item:
+    - title : "Python"
+      progress : "90%"
+      color : "#fdb157"
+
+    - title : "SQL"
+      progress : "70%"
+      color : "#bdecf6"
+      
+    - title : "React"
+      progress : "80%"
+      color : "#9473e6"
+      
+    - title : "Go"
+      progress : "60%"
+      color : "#ffbcaa"
+
+# experience
+experience:
+  enable : true
+  title : "Experience"
+  item: 
+    - logo : "images/experience/icon-1.png"
+      title : "Team Lead Assistant"
+      company : "RealPage"
+      duration : "Feb 2018 - Aug 2021"
+      
+    - logo : "images/experience/icon-2.png"
+      title : "Operations Analyst"
+      company : "RealPage"
+      duration : "Aug 2021 - Jun 2022"
+      
+    - logo : "images/experience/icon-1.png"
+      title : "Web Developer"
+      company : "Otter"
+      duration : "Jun 2022 - Present"
+
+# education
+education:
+  enable : true
+  title : "Certifications"
+  item:
+    - title : "Python Specialization"
+      year : "2020"
+      academy : "University of Michigan"
+
+    - title : "Smart Contracts"
+      year : "2020"
+      academy : "University at Buffalo, The State University of New York"
+      
+    - title : "Blockchain Basics"
+      year : "2020"
+      academy : "University at Buffalo, The State University of New York"
+
+    - title : "SQL for Data Science"
+      year : "2020"
+      academy : "University of California, Davis"
+
+# service
+service:
+  enable : true
+  title : "Skills"
+  item:
+    - title : "API Development"
+      icon : "ti-palette"
+      content : "Develop backend APIs for your application's frontend using Python, Node.js, or Go."
+      highlighted : false
+
+    - title : "Automation"
+      icon : "ti-panel"
+      content : "Develop automation scripting to streamline processes and save time using Python."
+      highlighted : true
+
+    - title : "Web Development"
+      icon : "ti-vector"
+      content : "Develop frontend user interfaces using React, HTML, CSS, and JavaScript."
+      highlighted : false
+
+# portfolio
+portfolio:
+  enable : true
+  title : "Portfolio"
+  item_show : 5
+  # portfolio item comes from 'data/portfolio.yml' item.
+
+# testimonial
+testimonial:
+  enable : true
+  title : "Recommendations"
+  item:
+    - name : "Aaron Barnett"
+      image : "images/testimonial/client-1.png"
+      designation : "Manager of Strategy and Analytics, SWC Group LP."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Ian McIntosh"
+      image : "images/testimonial/client-1.png"
+      designation : "Senior Vice President Enterprise Sales, LeaseLock"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      
+    - name : "Brent Rogers"
+      image : "images/testimonial/client-1.png"
+      designation : "Senior Director of Service Center Operations, RealPage"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+# client logo slider
+clients_logo_slider:
+  enable : true
+  item:
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-1.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-2.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-3.png"
+      URL : "#"
+      
+    - logo : "images/clients-logo/client-logo-4.png"
+      URL : "http://examplesite.com"
+      
+    - logo : "images/clients-logo/client-logo-5.png"
+      URL : "#"
+
+# blog
+blog:
+  enable : true
+  title : "Blogs"
+  # blog post comes from "content/blog" folder
